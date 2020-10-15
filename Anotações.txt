@@ -2,24 +2,27 @@
 
 Gerenciamento de estado
 
-- a context api não era tão boa e segura qto é agora, por isso, o redux surgiu;
+- a context api não era tão boa e segura qto é agora, por isso, 
+o redux surgiu;
 - a context api não subistitui redux
-- a context api serve exclusivamente para compartilhar estados entre componentes,
+- a context api serve exclusivamente para compartilhar estados 
+entre componentes,
 mas esse estado não consegue ser muito complexo
 
 ==================================================================================
 
 Ferramentas disponíveis
 
-- context api: usar qdo precisamos compartilhar informações simples entre os 
-componentes (https://pt-br.reactjs.org/docs/context.html);
+- context api: usar qdo precisamos compartilhar informações 
+simples entre os componentes 
+(https://pt-br.reactjs.org/docs/context.html);
 
 - Redux (https://redux.js.org/)
 
 - Mobx (https://mobx.js.org/README.html)
 
-- Recoil: tende a ser um substituto mais simples para o redux e mobx. É uma lib 
-recente (https://recoiljs.org/)
+- Recoil: tende a ser um substituto mais simples para o redux 
+e mobx. É uma lib recente (https://recoiljs.org/)
 
 - Zustand: outra lib semelhante ao recoil. Tbm é uma lib nova
 (https://github.com/pmndrs/zustand/releases)
@@ -27,6 +30,12 @@ recente (https://recoiljs.org/)
 ==================================================================================
 
 Arquitetura Flux
+
+O que é: é uma forma de organizar as informações de estados 
+globais da aplicação, ou seja, estados que são compartilhados
+em vários componentes;
+
+As ações no reduz são unidirecionais;
 
 ==================================================================================
 
