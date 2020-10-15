@@ -47,6 +47,47 @@ create-react-app app --template typescript
 - Instala as dependências do redux
 yarn add redux react-redux
 
+createStore = é chamado uma única vez
+
+yarn add @types/react-redux -D
+
+Provider: provem os valores para todos que estão dentro dele
+
+----
+
+store/index.ts:
+const store = createStore(() => "Ana");
+
+Catalog.tsx:
+const store = useStore();
+console.log(store.getState());
+
+No console:
+Ana
+
+----
+
+useSelector:  recebe um fç como parâmentro
+
+const store = useSelector((state) => state); => retorna toda o
+estado da aplicação
+
+----
+
+const store = createStore(() => {
+  return {
+    id: 2,
+    name: "Ana",
+    email: "ana@gmail.com",
+  };
+});
+
+const email = useSelector((state) => state.email);
+console.log(email);
+(vai dar erro de ts, mas apresenta o email no console)
+
+----
+
 ==================================================================================
 
 Usando os reducers
