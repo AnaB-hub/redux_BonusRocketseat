@@ -183,6 +183,10 @@ Por padrão, é usado o takeLatest
 
 Obtendo quantidade do carrinho
 
+O select serve para obter informações do meu estado
+
+?? 0 : se não vier valor de qtde, o valor padrão será zero
+
 ==================================================================================
 
 Dividindo as actions
