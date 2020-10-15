@@ -145,6 +145,8 @@ do estado anterior
 
 Aumentando quantidade
 
+Regras devem ficar no reducer
+
 ==================================================================================
 
 Debugando com DevTools
