@@ -92,6 +92,13 @@ console.log(email);
 
 Usando os reducers
 
+Reducer é o ponto central da aplicação no redux;
+o reducer é responsavel pelas info que estarão contidas dentro 
+do modulo cart
+
+O reducer é um fç que retorna as info contidas dentro do state
+
+rootReducer: para unir vários reducers
 ==================================================================================
 
 Estado inicial do Reducer
