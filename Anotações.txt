@@ -133,6 +133,14 @@ Tipagens do Redux
 
 Utilizando Immer
 
+yarn add immer
+
+o immer ajuda a evitar verbozidade ao fazer alteração em 
+estados
+
+produce: vou poroduzir um novo estato, a partir de um rascunho
+do estado anterior
+
 ==================================================================================
 
 Aumentando quantidade
