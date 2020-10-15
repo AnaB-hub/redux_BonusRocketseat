@@ -107,6 +107,12 @@ Estado inicial do Reducer
 
 Criando servidor JSON
 
+Fake API
+yarn add json-server -D
+no package.json, cria um script pra executar ele
+
+yarn add axios
+
 ==================================================================================
 
 Trabalhando com actions
