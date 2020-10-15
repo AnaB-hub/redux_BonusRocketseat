@@ -2,6 +2,11 @@
 
 Gerenciamento de estado
 
+- a context api não era tão boa e segura qto é agora, por isso, o redux surgiu;
+- a context api não subistitui redux
+- a context api serve exclusivamente para compartilhar estados entre componentes,
+mas esse estado não consegue ser muito complexo
+
 ==================================================================================
 
 Ferramentas disponíveis
