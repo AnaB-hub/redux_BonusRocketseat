@@ -195,6 +195,11 @@ Dividindo as actions
 
 Finalizando checagem do estoque
 
+call: recebe dois parâmetros. O primeiro é o qual ação asyncrona que
+quero executar e o segundo são os parâmetros
+
+put: é a mesma coisa que o dispatch, ou seja, ele tbm dispara uma ação
+
 ==================================================================================
 
 Sinalizando falta de estoque

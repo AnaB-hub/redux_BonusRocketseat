@@ -2,6 +2,7 @@ import { Reducer } from "redux";
 import produce from "immer";
 
 import { ICartState } from "./types";
+import { Console } from "console";
 
 const INITIAL_STATE: ICartState = {
   items: [],
@@ -26,6 +27,11 @@ const cart: Reducer<ICartState> = (state = INITIAL_STATE, action) => {
           });
         }
 
+        break;
+      }
+
+      case "ADD_PRODUCT_TO_CART_FAILURE": {
+        console.log("FAILURE", action.payload);
         break;
       }
 
