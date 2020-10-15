@@ -11,6 +11,19 @@ mas esse estado não consegue ser muito complexo
 
 Ferramentas disponíveis
 
+- context api: usar qdo precisamos compartilhar informações simples entre os 
+componentes (https://pt-br.reactjs.org/docs/context.html);
+
+- Redux (https://redux.js.org/)
+
+- Mobx (https://mobx.js.org/README.html)
+
+- Recoil: tende a ser um substituto mais simples para o redux e mobx. É uma lib 
+recente (https://recoiljs.org/)
+
+- Zustand: outra lib semelhante ao recoil. Tbm é uma lib nova
+(https://github.com/pmndrs/zustand/releases)
+
 ==================================================================================
 
 Arquitetura Flux
