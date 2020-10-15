@@ -151,6 +151,13 @@ Regras devem ficar no reducer
 
 Debugando com DevTools
 
+No chrome: instala a extensão Redux DevTools
+
+yarn add redux-devtools-extension
+
+https://github.com/infinitered/reactotron = tem um interface
+mais bonita
+
 ==================================================================================
 
 Abstraindo item do catálogo
