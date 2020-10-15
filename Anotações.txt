@@ -204,6 +204,9 @@ put: é a mesma coisa que o dispatch, ou seja, ele tbm dispara uma ação
 
 Sinalizando falta de estoque
 
+useSelector<IState, boolean> = formato do meu estado, tipo de retorno
+que eu quero
+
 ==================================================================================
 
 Criando Action Types
