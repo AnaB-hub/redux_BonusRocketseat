@@ -166,6 +166,19 @@ Abstraindo item do catálogo
 
 Configurando Redux Saga
 
+Redux saga é um middleware
+
+yarn add redux-saga
+
+O * é a mesma coisa que async e o yield é o mesmo que await
+
+takeLatest: se ação anterior não finalizou, ele cancela as
+anteriores e pega só a última
+
+takeEvery: iria aguardar todas 
+
+Por padrão, é usado o takeLatest
+
 ==================================================================================
 
 Obtendo quantidade do carrinho
