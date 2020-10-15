@@ -41,6 +41,12 @@ As ações no reduz são unidirecionais;
 
 Configurando Store
 
+-Criar o projeto
+create-react-app app --template typescript
+
+- Instala as dependências do redux
+yarn add redux react-redux
+
 ==================================================================================
 
 Usando os reducers
