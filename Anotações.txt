@@ -117,6 +117,10 @@ yarn add axios
 
 Trabalhando com actions
 
+type: é uma string que identifica cada uma das ações
+payload: geralmente, são todos os dados que recebemos, no caso 
+aqui, o product
+
 ==================================================================================
 
 Alterando estado
